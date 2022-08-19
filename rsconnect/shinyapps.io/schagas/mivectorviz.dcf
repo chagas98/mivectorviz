@@ -1,0 +1,13 @@
+name: mivectorviz
+title: mivectorviz
+username:
+account: schagas
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6808805
+bundleId: 6216275
+url: https://schagas.shinyapps.io/MiVectorViz/
+when: 1660878461.18304
+lastSyncTime: 1660878461.18305
+asMultiple: FALSE
+asStatic: FALSE
