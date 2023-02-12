@@ -52,9 +52,7 @@ FEATURES             Location/Qualifiers
      CDS             complement(3648..4730)
                      /direction=RIGHT
                      /codon_start=1
-                     /gene="lacI"
                      /product="lac repressor"
-                     /label=lacI
                      /note="The lac repressor binds to the lac operator to
                      inhibit transcription in E. coli. This inhibition can be
                      relieved by adding lactose or
@@ -68,13 +66,9 @@ FEATURES             Location/Qualifiers
                      ALADSLMQLARQVSRLESGQ"
      promoter        complement(4731..4808)
                      /direction=RIGHT
-                     /gene="lacI"
-                     /label=lacI promoter
      promoter        5121..5139
-                     /label=T7 promoter
                      /note="promoter for bacteriophage T7 RNA polymerase"
      protein_bind    5140..5164
-                     /label=lac operator
                      /bound_moiety="lac repressor encoded by lacI"
                      /note="The lac repressor binds to the lac operator to
                      inhibit transcription in E. coli. This inhibition can be
@@ -84,34 +78,27 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /gene="trxA"
                      /product="E. coli thioredoxin"
-                     /label=TrxA
                      /translation="MSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDE
                      IADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFL
                      DANLA"
      CDS             5557..5574
                      /codon_start=1
                      /product="6xHis affinity tag"
-                     /label=6xHis
                      /translation="HHHHHH"
      primer_bind     complement(5578..5628)
-                     /label=AviTag Insert R
      CDS             5584..5604
                      /codon_start=1
                      /product="tobacco etch virus (TEV) protease recognition and
                      cleavage site"
-                     /label=TEV Site
                      /translation="ENLYFQG"
      CDS             5611..5655
                      /codon_start=1
                      /product="peptide tag that allows for enzymatic
                      biotinylation"
-                     /label=AviTag(TM)
                      /translation="GLNDIFEAQKIEWHE"
      primer_bind     5629..5673
-                     /label=AviTag Insert F
      CDS             5659..7503
                      /codon_start=1
-                     /label=dsnPPR10-C2
                      /translation="MGNDVVTYTTLIDGLAKAGRLEEALQLFQEMKEKGVKPDVVTYNT
                      LIDGLAKAGRLEEALQLFQEMKEKGVKPDVVTYTTLIDGLAKAGRLEEALCLFQEMKEK
                      GVKPNVVTYNTLIDGLAKAGRLEEALQLFQEMKEKGVKPDVVTYNTLIDGLAKAGRLEE
@@ -126,10 +113,8 @@ FEATURES             Location/Qualifiers
      CDS             7544..7561
                      /codon_start=1
                      /product="6xHis affinity tag"
-                     /label=6xHis
                      /translation="HHHHHH"
      terminator      7628..7675
-                     /label=T7 terminator
                      /note="transcription terminator for bacteriophage T7 RNA
                      polymerase"
 ORIGIN
